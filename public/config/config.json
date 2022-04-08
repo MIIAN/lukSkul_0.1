@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0xBdB8Be25A1C56175523609290727CA9eEf48f353",
+  "SCAN_LINK": "https://polygonscan.com/token/0xBdB8Be25A1C56175523609290727CA9eEf48f353",
+  "NETWORK": {
+    "NAME": "Polygon",
+    "SYMBOL": "Matic",
+    "ID": 137
+  },
+  "NFT_NAME": "LukSkuL",
+  "SYMBOL": "lukSKul",
+  "MAX_SUPPLY": 5000,
+  "WEI_COST": 75000000000000000,
+  "DISPLAY_COST": 5,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/lukskul",
+  "SHOW_BACKGROUND": true
+}
