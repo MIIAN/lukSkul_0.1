@@ -1,7 +1,7 @@
 {
   "name": "lukskul",
   "homepage": "/",
-  "version": "1.0.0",
+  "version": "0.1",
   "description": "minting dapp",
   "private": true,
   "dependencies": {
@@ -17,8 +17,12 @@
     "web3": "^1.5.1",
     "web3-eth-contract": "^1.5.2"
   },
-  "author": "Daniel Eugene Botha (HashLips)",
-  "license": "MIT",
+  "keywords" : [
+    "heroku"
+  ],
+  "engines": {
+    "node": "^14.x"
+  },
   "scripts": {
     "start": "node server",
     "build": "react-scripts build"
