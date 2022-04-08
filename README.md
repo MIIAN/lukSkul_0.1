@@ -1,4 +1,5 @@
-## This is cont.. from the hashlips minting dapp.  Assuming you have completed all the steps to this point and have a completed build folder.  Some changes need to be done in order to host your app on heroku.  
+## This is cont.. 
+from the hashlips minting dapp.  Assuming you have completed all the steps to this point and have a completed build folder.  Some changes need to be done in order to host your app on heroku.  
 
 ## -- Hosting your dapp using heroku. --
 
