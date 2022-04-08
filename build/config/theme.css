@@ -1,14 +1,9 @@
 :root {
-  --primary: #72c3f198;
+  --primary: #ecf6fc;
   --primary-text: #1a1a1a;
-  --secondary: #ec756091;
+  --secondary: #ec7560;
   --secondary-text: #ffffff;
   --accent: #505050;
   --accent-text: #ffffff;
 }
 
-.background {
-  height: 500px; 
-  width: 500px; 
-  background-color: green; 
-}
