@@ -1,5 +1,5 @@
-## This is cont.. 
-from the hashlips minting dapp.  Assuming you have completed all the steps to this point and have a completed build folder.  Some changes need to be done in order to host your app on heroku.  
+## Hashlips_nft_minting_dapp-1.0.1 cont.. 
+After completing the hashlips nft minting dapp and assuming you have a completed build folder.  Lets continue on and host your app on heroku.  
 
 ## -- Hosting your dapp using heroku. --
 
