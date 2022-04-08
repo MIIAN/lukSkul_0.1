@@ -1,7 +1,7 @@
 {
-  "name": "hashlips_nft_minting_dapp",
+  "name": "lukskul",
   "version": "1.0.0",
-  "description": "HashLips minting dapp.",
+  "description": "minting dapp",
   "private": true,
   "dependencies": {
     "express": "^4.17.3",
@@ -19,7 +19,7 @@
   "author": "Daniel Eugene Botha (HashLips)",
   "license": "MIT",
   "scripts": {
-    "start": "public/server/server.js",
+    "start": "node server",
     "build": "react-scripts build"
   },
   "browserslist": {
