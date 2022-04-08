@@ -11,8 +11,8 @@
   "MAX_SUPPLY": 5000,
   "WEI_COST": 75000000000000000,
   "DISPLAY_COST": 1,
-  "GAS_LIMIT": 285000,
+  "GAS_LIMIT": 2850000,
   "MARKETPLACE": "Opeansea",
   "MARKETPLACE_LINK": "https://opensea.io/collection/lukskul",
-  "SHOW_BACKGROUND": true
+  "SHOW_BACKGROUND": false
 }
