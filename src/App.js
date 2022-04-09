@@ -131,7 +131,12 @@ function App() {
     setClaimingNft(true);
     blockchain.smartContract.methods
       .mint(mintAmount)
-      .send({ gasLimit: null, maxPriorityFeePerGas: null, maxFeePerGas: null, to: CONFIG.CONTRACT_ADDRESS, from: blockchain.account, value: totalCostWei, })
+      .send({
+        gasLimit: String(totalGasLimit),
+        to: CONFIG.CONTRACT_ADDRESS,
+        from: blockchain.account,
+        value: totalCostWei,
+      })
       .once("error", (err) => {
         console.log(err);
         setFeedback("Sorry, something went wrong please try again later.");
