@@ -131,12 +131,12 @@ function App() {
     setClaimingNft(true);
     blockchain.smartContract.methods
       .mint(mintAmount)
-      .send({
-        gasLimit: String(totalGasLimit),
-        to: CONFIG.CONTRACT_ADDRESS,
-        from: blockchain.account,
-        value: totalCostWei,
-      })
+      .send({ gasLimit: String(totalGasLimit),
+         maxPriorityFeePerGas: null,
+         maxFeePerGas: null,
+         to: CONFIG.CONTRACT_ADDRESS,
+         from: blockchain.account,
+         value: totalCostWei, })
       .once("error", (err) => {
         console.log(err);
         setFeedback("Sorry, something went wrong please try again later.");
@@ -198,7 +198,7 @@ function App() {
       <s.Container
         flex={1}
         ai={"center"}
-        style={{ padding: 24, backgroundColor: "var(--primary)" }}
+        style={{ padding: 20, backgroundColor: "var(--primary)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
       >
         <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />

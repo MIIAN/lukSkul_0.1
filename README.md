@@ -1,5 +1,5 @@
 ## Hashlips_nft_minting_dapp-1.0.1 cont.. 
-After completing the hashlips nft minting dapp and assuming you have a completed build folder.  Lets continue on and host your app on heroku.  
+After completing the hashlips nft minting dapp and assuming you have a completed build folder.  Lets continue, and host your app on heroku.  
 
 ## -- Hosting your dapp using heroku. --
 
@@ -41,3 +41,12 @@ set Line 11.   app.listen(process.env.PORT);
  git push orgin master
 
  git push heroku master
+
+
+ # heroku lets you host your app with free dyno hours a month.  Check your dyno hours in the terminal:
+
+
+ heroku ps -a <app name>
+
+
+ 
