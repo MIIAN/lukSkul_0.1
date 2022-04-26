@@ -43,7 +43,7 @@ set Line 11.   app.listen(process.env.PORT);
  git push heroku master
 
 
- # heroku lets you host your app with free dyno hours a month.  Check your dyno hours in the terminal:
+ ## heroku lets you host your app with free dyno hours a month.  Check your dyno hours in the terminal:
 
 
  heroku ps -a <app name>
