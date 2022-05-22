@@ -1,5 +1,7 @@
 ## Hashlips_nft_minting_dapp-1.0.1 cont.. 
-After completing the hashlips nft minting dapp and assuming you have a completed build folder.  Lets continue, and host your app on heroku.  
+After completing the hashlips nft master class and assuming you have a completed build folder.  Lets continue, and host your app on heroku. 
+
+Follow along <a href="https://www.youtube.com/watch?v=Zhmj4PiJ-GA&t=4387s>">Hash Lips Nft Master Class</a>
 
 ## -- Hosting your dapp using heroku. --
 
